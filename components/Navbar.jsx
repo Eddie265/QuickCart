@@ -40,7 +40,16 @@ const Navbar = () => {
       <ul className="hidden md:flex items-center gap-4 ">
         <Image className="w-4 h-4" src={assets.search_icon} alt="search icon" />
         {user
+<<<<<<< HEAD
           ? <>
+=======
+<<<<<<< HEAD
+          ? <>
+=======
+          ?
+          <>
+>>>>>>> 0c180de51ba14f966685c84f248e3857c6038244
+>>>>>>> 63dccd3627861f62e282a959b2e6838320e2792f
           <UserButton>
             <UserButton.MenuItems>
               <UserButton.Action label="Cart" labelIcon={<CartIcon />} onClick={()=> router.push('/cart')} />
@@ -49,7 +58,15 @@ const Navbar = () => {
               <UserButton.Action label="My Orders" labelIcon={<BagIcon />} onClick={()=> router.push('/my-orders')} />
             </UserButton.MenuItems>
           </UserButton>
+<<<<<<< HEAD
             </>
+=======
+<<<<<<< HEAD
+            </>
+=======
+          </>
+>>>>>>> 0c180de51ba14f966685c84f248e3857c6038244
+>>>>>>> 63dccd3627861f62e282a959b2e6838320e2792f
           : <button onClick={openSignIn} className="flex items-center gap-2 hover:text-gray-900 transition">
             <Image src={assets.user_icon} alt="user icon" />
             Account
@@ -59,13 +76,30 @@ const Navbar = () => {
       <div className="flex items-center md:hidden gap-3">
         {isSeller && <button onClick={() => router.push('/seller')} className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>}
         {user
+<<<<<<< HEAD
           ? <>
+=======
+<<<<<<< HEAD
+          ? <>
+=======
+          ?
+          <>
+>>>>>>> 0c180de51ba14f966685c84f248e3857c6038244
+>>>>>>> 63dccd3627861f62e282a959b2e6838320e2792f
           <UserButton>
           <UserButton.MenuItems>
               <UserButton.Action label="Home" labelIcon={<HomeIcon />} onClick={()=> router.push('/')} />
             </UserButton.MenuItems>
             <UserButton.MenuItems>
+<<<<<<< HEAD
               <UserButton.Action label="Products" labelIcon={<BoxIcon />} onClick={()=> router.push('/all-products')} />
+=======
+<<<<<<< HEAD
+              <UserButton.Action label="Products" labelIcon={<BoxIcon />} onClick={()=> router.push('/all-products')} />
+=======
+              <UserButton.Action label="Products" labelIcon={<BoxIcon />} onClick={()=> router.push('/all-product')} />
+>>>>>>> 0c180de51ba14f966685c84f248e3857c6038244
+>>>>>>> 63dccd3627861f62e282a959b2e6838320e2792f
             </UserButton.MenuItems>
             <UserButton.MenuItems>
               <UserButton.Action label="Cart" labelIcon={<CartIcon />} onClick={()=> router.push('/cart')} />
@@ -74,7 +108,15 @@ const Navbar = () => {
               <UserButton.Action label="My Orders" labelIcon={<BagIcon />} onClick={()=> router.push('/my-orders')} />
             </UserButton.MenuItems>
           </UserButton>
+<<<<<<< HEAD
             </>
+=======
+<<<<<<< HEAD
+            </>
+=======
+          </>
+>>>>>>> 0c180de51ba14f966685c84f248e3857c6038244
+>>>>>>> 63dccd3627861f62e282a959b2e6838320e2792f
           : <button onClick={openSignIn} className="flex items-center gap-2 hover:text-gray-900 transition">
             <Image src={assets.user_icon} alt="user icon" />
             Account
